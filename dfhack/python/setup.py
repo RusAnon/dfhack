@@ -56,4 +56,5 @@ setup(
     test_suite='nose.collector',
     zip_safe=False,
     ext_modules=[e],
+    install_requires=["decorator"]
     )
